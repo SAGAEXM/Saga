@@ -1,4 +1,4 @@
-# fb id https://www.facebook.com
+# fb id https://www.facebook.com/akshda.s.patil.5
 
 
 from bs4 import BeautifulSoup as sop
@@ -1155,11 +1155,11 @@ logo ="""
 ║\33[1;32m        [ JAI ◈✙◈ \33[1;33mSHREE ◈✙◈\33[1;37m RAAM  ]          ║
 ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 \033[1;33m(•)●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;35m๑۩♡۩๑\033[0;95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●💔
-\033[1;36m[•] ━▷ \033[1;31mCREATED BY   ◈✙◈  \033[1;31mOWNER SAGA
-\033[1;32m[•] ━▷ \033[1;36mFACEBOK      ◈✙◈  \033[1;36mSAGA EXM
-\033[1;37m[•] ━▷ \033[1;37mGITHUB       ◈✙◈  \033[1;37mSAGA EXM
+\033[1;36m[•] ━▷ \033[1;31mCREATED BY   ◈✙◈  \033[1;31mOWNER HONEY
+\033[1;32m[•] ━▷ \033[1;36mFACEBOK      ◈✙◈  \033[1;36mHONEY KASYAP
+\033[1;37m[•] ━▷ \033[1;37mGITHUB       ◈✙◈  \033[1;37mHONEY-KING
 \033[1;33m[•] ━▷ \033[1;32mSTATUS       ◈✙◈  \033[1;32mTOOL IS FREE
-\033[1;35m[•] ━▷ \033[1;35mBROTHER      ◈✙◈  \033[1;35mSAGA EXM
+\033[1;35m[•] ━▷ \033[1;35mBROTHER      ◈✙◈  \033[1;35m🥰SAMI X SAHIL 🥰
 \033[1;32m[•] ━▷ \033[1;33mGIRLFRIEND   ◈✙◈  \033[1;33mSINGLE
 \033[1;37m[•] ━▷ \033[1;32mWHATSAPP.    ◈✙◈  \033[1;37mUSE NHI KRTA 
 \033[1;37m(•)●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;35m๑۩♡۩๑\033[1;32m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●💔\n\n"""  
@@ -2021,7 +2021,7 @@ def mobile(uid,pwx,tl):
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r\33[1;32m[M4-SAGA] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;32m[M4-HONEY] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
@@ -2163,7 +2163,7 @@ def d(uid,pwx,tl):
 					cek_apk(session,coki)
 				else:
 					break
-				open('/sdcard/HONEY-OK.txt', 'a').write(cid+' | '+ps+' | ' coki '\n')
+				open('/sdcard/HONEY-OK.txt', 'a').write(cid+' | '+ps+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
